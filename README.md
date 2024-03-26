@@ -24,7 +24,7 @@ The Excel file should be structured with character names arranged in rows and co
 
 ************************************************************************
 
-**        Alices     Bob      Charlie     David      Eve
+       Alices     Bob      Charlie     David      Eve
 Alice     couple    amitié    animosité    crush    amitié
 Bob       amitié              amitié      animosité  -
 Charlie   animosité amitié                crush    amitié
