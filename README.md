@@ -1,15 +1,6 @@
 # FriendTree
 FriendTree is a Python program designed to visualize relationships between different characters, such as friendships, couples, animosities, etc., through an interactive graph.
 
-
-Bien sûr ! Voici la description mise à jour avec les bibliothèques nécessaires incluses :
-
----
-
-# FriendTree
-
-FriendTree is a Python program designed to visualize relationships between different characters, such as friendships, couples, animosities, etc., through an interactive graph.
-
 ## Key Features:
 
 - **Import from Excel file:** The program can import relationship data from a structured Excel file, where character names are arranged in rows and columns with corresponding relationship types in the cells.
@@ -30,13 +21,17 @@ FriendTree offers an intuitive and user-friendly way to visualize relationships 
 ## Excel File Format:
 
 The Excel file should be structured with character names arranged in rows and columns. Each cell should contain the relationship type between the corresponding characters. Empty cells indicate no relationship between characters.
+************************************************************************
+           Alice      Bob      Charlie     David      Eve
+Alice     couple    amitié    animosité    crush    amitié
+Bob       amitié              amitié      animosité  -
+Charlie   animosité amitié                crush    amitié
+David     crush    animosité   crush                amitié
+Eve       amitié              amitié      amitié      
+************************************************************************
 
 ## Required Libraries:
 
 - NetworkX
 - pandas
 - matplotlib
-
----
-
-Feel free to adapt this description according to the specifics of your program and your needs!
