@@ -22,15 +22,6 @@ FriendTree offers an intuitive and user-friendly way to visualize relationships 
 
 The Excel file should be structured with character names arranged in rows and columns. Each cell should contain the relationship type between the corresponding characters. Empty cells indicate no relationship between characters.
 
-************************************************************************
-
-       Alices     Bob      Charlie     David      Eve
-Alice     couple    amitié    animosité    crush    amitié
-Bob       amitié              amitié      animosité  -
-Charlie   animosité amitié                crush    amitié
-David     crush    animosité   crush                amitié
-Eve       amitié              amitié      amitié      
-************************************************************************
 
 ## Required Libraries:
 
